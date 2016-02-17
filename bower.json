@@ -1,0 +1,31 @@
+{
+  "name": "simple-line-icons",
+  "version": "0.0.1",
+  "homepage": "https://github.com/elartix/simple-line-icons",
+  "main": "simple-line-icons.css"
+  "authors": [
+    "Vladimir Mechkauskas <lestatbbk@gmail.com>"
+  ],
+  "description": "Simple Line Icons is 162 simple stroke icons that are great for mobile applications, websites, user interfaces, etc.",
+  "keywords": [
+    "simple-line-icons",
+    "font",
+    "fontface",
+    "css",
+    "less",
+	"styl",
+    "web",
+    "design"
+  ],
+  "license": [
+    "MIT",
+    "OFL"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
