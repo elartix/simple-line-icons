@@ -1,9 +1,9 @@
 // Mixins
 // --------------------------
 
-@mixin fa-icon() {
+@mixin sli-icon() {
   display: inline-block;
-  font: normal normal normal #{$sli-font-size-base}/#{$sli-line-height-base} FontAwesome; // shortening font declaration
+  font: normal normal normal #{$sli-font-size-base}/#{$sli-line-height-base} Simple-Line-Icons; // shortening font declaration
   font-size: inherit; // can't have font-size inherit on line above, so need to override
   text-rendering: auto; // optimizelegibility throws things off #1094
   -webkit-font-smoothing: antialiased;
@@ -11,14 +11,14 @@
 
 }
 
-@mixin fa-icon-rotate($degrees, $rotation) {
+@mixin sli-icon-rotate($degrees, $rotation) {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
   -webkit-transform: rotate($degrees);
       -ms-transform: rotate($degrees);
           transform: rotate($degrees);
 }
 
-@mixin fa-icon-flip($horiz, $vert, $rotation) {
+@mixin sli-icon-flip($horiz, $vert, $rotation) {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
   -webkit-transform: scale($horiz, $vert);
       -ms-transform: scale($horiz, $vert);
