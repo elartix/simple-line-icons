@@ -1,9 +1,10 @@
 {
   "name": "simple-line-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/elartix/simple-line-icons",
   "main": [
-    "./stylus/simple-line-icons.styl"
+    "./stylus/simple-line-icons.styl",
+	"./scss/simple-line-icons.scss"
   ],
   "authors": [
     "Vladimir Mechkauskas <lestatbbk@gmail.com>"
@@ -16,6 +17,7 @@
     "css",
     "less",
 	"styl",
+	"scss"
     "web",
     "design"
   ],
