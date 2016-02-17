@@ -2,7 +2,9 @@
   "name": "simple-line-icons",
   "version": "0.0.1",
   "homepage": "https://github.com/elartix/simple-line-icons",
-  "main": "simple-line-icons.css"
+  "main": [
+    "./stylus/simple-line-icons.styl"
+  ],
   "authors": [
     "Vladimir Mechkauskas <lestatbbk@gmail.com>"
   ],
