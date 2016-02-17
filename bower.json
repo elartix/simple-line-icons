@@ -3,8 +3,14 @@
   "version": "0.0.2",
   "homepage": "https://github.com/elartix/simple-line-icons",
   "main": [
-    "./stylus/simple-line-icons.styl",
-	"./scss/simple-line-icons.scss"
+    "stylus/simple-line-icons.styl",
+	"scss/simple-line-icons.scss",
+	"fonts/Simple-Line-Icons.dev.svg",
+	"fonts/Simple-Line-Icons.eot",
+	"fonts/Simple-Line-Icons.svg",
+	"fonts/Simple-Line-Icons.ttf",
+	"fonts/Simple-Line-Icons.woff",
+	"fonts/Simple-Line-Icons.woff2",
   ],
   "authors": [
     "Vladimir Mechkauskas <lestatbbk@gmail.com>"
